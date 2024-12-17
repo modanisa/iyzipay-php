@@ -5,7 +5,7 @@ namespace Iyzipay\Model\Mapper;
 use Iyzipay\Model\PlusInstallmentPayment;
 
 class PlusInstallmentPaymentMapper extends PlusInstallmentPaymentResourceMapper {
-    public static function create($rawResult = null): PlusInstallmentPaymentMapper {
+    public static function create($rawResult = null): PlusInstallmentPaymentResourceMapper {
         return new PlusInstallmentPaymentMapper($rawResult);
     }
 
